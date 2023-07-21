@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj": {}
+    "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj": {}
   },
   "projects": {
-    "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj": {
+    "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
+        "projectUniqueName": "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
         "projectName": "AspCoreDapperAPI",
-        "projectPath": "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
+        "projectPath": "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
         "packagesPath": "C:\\Users\\pngrb.dev\\.nuget\\packages\\",
-        "outputPath": "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\obj\\",
+        "outputPath": "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pngrb.dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

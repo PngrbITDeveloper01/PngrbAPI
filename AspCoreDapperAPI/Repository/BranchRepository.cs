@@ -21,5 +21,21 @@ namespace AspCoreDapperAPI.Repository
             IEnumerable<Branch> result = await connection.QueryAsync<Branch>("sp_get_branchs", new { });
             return result;
         }
+        public async Task<IEnumerable<ReturnConnection>> GetConnention(ReturnConnection objConn)
+        {
+            var connection = _dapperContext.CreateConnection();
+            IEnumerable<ReturnConnection> result = null;
+            result = await connection.QueryAsync<ReturnConnection>("usp_getCNGConnectionStatewise", new { });
+            return result;
+        }
+        public async Task<IEnumerable<ReturnConnection>> GetConnentionByMonthYear(ReturnConnection objConn)
+        {
+            var connection = _dapperContext.CreateConnection();
+            DynamicParameters objParm = new DynamicParameters();
+            objParm.Add("@Month", objConn.Month);
+            objParm.Add("@Year", objConn.Year);
+            IEnumerable<ReturnConnection> result =await  connection.QueryAsync<ReturnConnection>("usp_getCNGConnectionStatewiseByMonthYear", objParm, commandType: CommandType.StoredProcedure);
+            return result;
+        }
     }
 }

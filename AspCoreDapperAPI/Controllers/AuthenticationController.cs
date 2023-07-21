@@ -43,7 +43,7 @@ namespace AspCoreDapperAPI.Controllers
                     issuer: ConfigurationManager.AppSetting["JWT:ValidIssuer"],
                     audience: ConfigurationManager.AppSetting["JWT:ValidAudience"],
                     claims: new List<Claim>(),
-                    expires: DateTime.Now.AddMinutes(10),
+                    expires: DateTime.Now.AddMinutes(2),
                     signingCredentials: signinCredentials
                 );
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);

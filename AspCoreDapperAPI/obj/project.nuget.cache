@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYHAq/Cf6rDyVOb9xXH6rUxQTdtcFt/ixTEjjjzmBcV1rrTmxF/LlccndXTLp4EAdaeX/mqqYKpcRXJQyo31WA==",
+  "dgSpecHash": "GeiJpoZIitmSpreMXDM7NO2u6kY4EZ5eh4TEvplIILwFad1CuzDD0qcltdkXWa9OX7mnWZ9QWtdaPAdVmiFAxQ==",
   "success": true,
-  "projectFilePath": "D:\\Devlopment\\AspCoreDapperAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
+  "projectFilePath": "D:\\Devlopment\\CGD_NEW\\PngrbAPI\\AspCoreDapperAPI\\AspCoreDapperAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -26,6 +26,7 @@
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\pngrb.dev\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\pngrb.dev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

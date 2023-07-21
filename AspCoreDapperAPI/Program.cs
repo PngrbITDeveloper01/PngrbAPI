@@ -82,12 +82,19 @@ builder.Services.AddAuthentication(opt => {
 //});
 
 var app = builder.Build();
-
-
+var virDir = ConfigurationManager.AppSetting["VirtualDirectory"];
+app.UseSwagger();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+   
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/V1/swagger.json", "PNGRB WebAPI");
+    });
+}
+else
+{
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/V1/swagger.json", "PNGRB WebAPI");
